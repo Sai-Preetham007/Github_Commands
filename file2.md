@@ -8,7 +8,7 @@ $ Configure Git :
 -----------------
 git config --global user.name "Sai Preetham"
 git config --global user.email "saipreethamudumula@gmail.com"
-git config --global core.editor "notepad"
+<!-- git config --global core.editor "notepad" -->
 git config --list
 
 
