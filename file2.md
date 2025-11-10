@@ -49,3 +49,6 @@ git                  ---> Show all the git commands.
 git log              ---> Show the info related to changes, who has done and when it is done.
 git branch           ---> Show all the available branches.
 git remote -v        ---> Show the details of remote location.
+git fetch            ---> Shows weather Git & Github are in sync.
+git pull             ---> Github -> Local
+git push             ---> Local -> Github
