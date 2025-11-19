@@ -43,6 +43,21 @@ git push -u origin main
 
 
 
+$ Git Restore:
+--------------
+git restore example.txt                     ---> Undo the changes from the local/Working, If you haven't used git add command.
+git restore --staged example.txt            ---> Undo the changes from the staging area, If you have done git add command.
+
+
+
+$ Git Reset:
+------------
+git reset --soft HEAD~1                     ---> Undo the commit, keep changes staged
+git reset --mixed HEAD~1                    ---> Undo the commit, keep changes but unstaged
+git reset --hard HEAD~1                     ---> Discard changes, revert fully
+
+
+
 $ Other Features :
 ------------------
 git                  ---> Show all the git commands.
