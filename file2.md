@@ -72,5 +72,5 @@ git push             ---> Local -> Github
 
 $ Switch Github account (Personal vs Work) :
 --------------------------------------------
-git auth status                                                 ---> Shows the current login user details
-git auth login -> GitHub.com -> HTTPS -> browser login          ---> See the 8-digit code and the link populated in the terminal and use it in the browser to switch account.
+gh auth status                                                 ---> Shows the current login user details
+gh auth login -> GitHub.com -> HTTPS -> browser login          ---> See the 8-digit code and the link populated in the terminal and use it in the browser to switch account.
