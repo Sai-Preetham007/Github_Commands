@@ -67,3 +67,10 @@ git remote -v        ---> Show the details of remote location.
 git fetch            ---> Shows weather Git & Github are in sync.
 git pull             ---> Github -> Local
 git push             ---> Local -> Github
+
+
+
+$ Switch Github account (Personal vs Work) :
+--------------------------------------------
+git auth status                                                 ---> Shows the current login user details
+git auth login -> GitHub.com -> HTTPS -> browser login          ---> See the 8-digit code and the link populated in the terminal and use it in the browser to switch account.
